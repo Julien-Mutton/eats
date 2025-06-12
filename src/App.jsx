@@ -7,7 +7,7 @@ import SearchBar from './components/SearchBar'
 function App() {
 
   return (
-    <div>
+    <div className='page'>
      <PageBanner />
      <SearchBar />
      

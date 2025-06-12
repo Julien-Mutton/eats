@@ -1,19 +1,63 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Horizontally center everything */
+  gap: 40px;            /* Space between sections */
+  padding: 20px;
+}
+
+
+
+.results {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  flex-wrap: wrap;           /* wraps cards on smaller screens */
+  gap: 20px;                 /* optional spacing between cards */
+  padding: 20px;             /* optional padding */
+}
+
+
+
+
+
+
+
+
+
 
 .search-selection {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .radio-group {
   display: flex;
   gap: 20px; /* space between buttons */
+  margin-bottom: 20px;
+}
+
+
+.search-row {
+  width: 300px;
+  margin: 10px auto;
+  gap: 1000px;
+
+
 }
 
 .search-button-selection {
-  display: flex;
+  display: block;
+  margin: auto;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   font-size: 16px;
   cursor: pointer;
+  white-space: nowrap;
+}
+.search-button{
+  font-size: 10px;
+   white-space: nowrap;
 }
 
 .search-input{
@@ -21,9 +65,16 @@
   align-items: center;
 }
 .search-card{
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
+
+
+
+
+
 
 .business-card {
   width: 280px;
@@ -33,7 +84,10 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   font-family: Arial, sans-serif;
   margin: 20px;
+  align-items: center;
 }
+
+
 
 .business-image {
   width: 100%;
@@ -92,4 +146,6 @@
 .card-row{
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
 }

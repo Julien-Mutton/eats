@@ -3,7 +3,7 @@ import React from "react";
 
 function SearchBar(){
     return (
-        <div>
+        <div className="search-row">
         <div className="search-selection">
             <form className="radio-group">
                 <label className="search-button-selection">
@@ -23,10 +23,10 @@ function SearchBar(){
             </form>
             </div>
 
-        <div className="Search-card">
-              <input type="text" placeholder="Search..." class="search-input" />
-              <input type="text" placeholder="Location..." class="search-input" />
-              <button class="search-button">🔍</button>
+        <div className="search-card">
+              <input type="text" placeholder="Search..." className="search-input" />
+              <input type="text" placeholder="Location..." className="search-input" />
+              <button class="search-button">Let's go!</button>
         </div></div>
     );
 };
